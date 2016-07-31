@@ -24,8 +24,10 @@ general rule of thumb (gathered from
 `fpvlab.com <http://fpvlab.com/forums/showthread.php?4683-Formula-to-calculate-distance-from-antennas-gains&p=78052&viewfull=1#post78052>`__
 and `zytrax.com <http://www.zytrax.com/tech/wireless/calc.htm>`__) is:
 
--  increasing the antenna gain by 6dBi (i.e. from 2dBi to 8dBi) will double the range
+-  increasing the antenna gain by 6dBi (i.e. from 2dBi to 8dBi) will double both transmit and receiver range at the expense of antenna beamwidth coverage. The more 'gain' an antenna has, the tighter the radiation pattern.
 -  increasing the transmitter power by 4x (i.e. from 20mW to 80mW) will double the range
+-  Be aware of telelcommunication laws in your county. Just because video and telemetry transmitters from China are sold with multiple channels, does NOT give you the authorization to use them. In the US, and soon to be other countries, 1090MHz is the ADS-B NextGen Avaition tracking. You will have your equipment confiscated if you are caught transmitting on frequencies you are not authorized to use.
+-  The amount of RF power from your transmitter and the amount of gain for a transmitting antenna is limited (for the right reasons).
 
 The standard :ref:`3DR radio <copter:common-sik-telemetry-radio>` comes with a 2dBi antenna.
 
